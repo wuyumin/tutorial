@@ -6,14 +6,14 @@
 ## Composer的安装
 ### Windows系统
 1. 安装目录。  
-比如安装在`D:\\Program Files\\Composer`下 ， 这个目录会用来设置Composer的环境变量。 
+比如安装在`D:\Program Files\Composer`下 ， 这个目录会用来设置Composer的环境变量。 
 2. 下载composer.phar文件到安装目录。
   - 下载最新版：<https://getcomposer.org/composer.phar>
   - 各个版本下载列表页：<https://getcomposer.org/download>
 3. 安装目录下创建名称为 composer.bat 的执行文件并在文件里填写下面一行内容即可：  
 `@php "%~dp0composer.phar" %*`  
 4. 设置Composer环境变量  
-电脑桌面上右击"计算机" -> 菜单"属性" -> "高级系统设置" -> 底下的"环境变量" -> "系统变量"里找到Path项，编辑，变量值在最后添加Composer安装目录路径字符，如`;D:\\Program Files\\Composer`(这个根据你的安装目录来写)，多个路径间记得使用英文分号`;`隔开。  
+电脑桌面上右击"计算机" -> 菜单"属性" -> "高级系统设置" -> 底下的"环境变量" -> "系统变量"里找到Path项，编辑，变量值在最后添加Composer安装目录路径字符，如`;D:\Program Files\Composer`(这个根据你的安装目录来写)，多个路径间记得使用英文分号`;`隔开。  
 5. 测试一下(使用DOS命令窗口)  
 `composer -V`  
 
