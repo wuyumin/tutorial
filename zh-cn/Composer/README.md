@@ -1,7 +1,7 @@
 # Composer简明教程
 
 > Composer是PHP的一个依赖管理工具。  
-使用和安装Composer，请确保已正确安装PHP(版本5.3.2+)，并且设置了PHP的环境变量(就是使用命令行 `php -v`可以打印显示版本号 )。  
+使用和安装Composer，请确保已正确安装PHP(版本5.3.2+)，并且设置了PHP的环境变量(就是使用命令 `php -v`可以显示出php版本号的那种)。  
 
 ## Composer的安装
 ### Windows系统
@@ -31,9 +31,12 @@
 `# composer -V`  
 
 ## Composer的使用
+列举一些常用的。
 - `composer self-update`：更新composer版本。(当然，你也可以采取下载composer.phar文件进行覆盖更新)。
-- `composer install`：根据项目目录下的composer.json文件来安装依赖代码库。
-- 未完待续……
+- `composer install`：根据当前目录下的composer.json文件来安装依赖代码库。
+- `composer update`：更新依赖代码库。
+- `composer create-project`：创建项目。
+- `composer init`：交互方式在当前目录下创建composer.json文件。
 
 ## Composer的资源
 - Composer官网(英文) <https://getcomposer.org>
@@ -45,5 +48,3 @@
 GitHub上的原文链接  
 <https://github.com/wuyumin/tutorial/blob/master/zh-cn/Composer/README.md>  
 欢迎在GitHub上star本项目或通过Issues提供修正建议。  
-
-### 未完待续……
