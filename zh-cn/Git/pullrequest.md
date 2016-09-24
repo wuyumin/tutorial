@@ -1,9 +1,9 @@
 # GitHub 上如何参与开源(给开源项目贡献自己的代码)
- `最主要的是掌握 Pull request 操作在哪。` 
+ `最主要的是掌握 Pull request 操作在哪。`  
 1. **Fork 操作**  
-Fork 该开源项目到自己的 GitHub 账号下(因为自己的仓库才有权限进行 git 操作，除非官方授权于你才能直接操作官方源码)。
+Fork 该开源项目到自己的 GitHub 账号下(因为自己的仓库才有权限进行 git 操作，除非官方授权于你才能直接操作官方源码)。  
 2. **Git 操作**  
-一般 git 操作 fork 后的项目(跟操作自己仓库一模一样)。
+一般 git 操作 fork 后的项目(跟操作自己仓库一模一样)。  
 3. **Pull request 操作**  
   - 点击仓库 Branch 旁右边的“New pull request”按钮。
   - 进入比较变化的界面。base fork：指的是作者仓库目录地址；head fork：指的是自己账号中 fork 后所产生的仓库地址。
