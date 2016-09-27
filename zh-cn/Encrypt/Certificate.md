@@ -8,4 +8,5 @@
 免费 SSL 证书支持 10 个域名，默认有效期 3 年。
 ##### Let's Encrypt
 <https://letsencrypt.org>  
-需要学会使用技术来操作和续期。免费 SSL 证书支持 100 个域名，默认有效期 90 天。
+需要学会使用技术来操作和续期。免费 SSL 证书支持 100 个域名，默认有效期 90 天。  
+Let's Encrypt教程：<https://www.digitalocean.com/community/tags/let-s-encrypt?type=tutorials>
