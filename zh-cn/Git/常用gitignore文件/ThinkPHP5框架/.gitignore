@@ -1,0 +1,9 @@
+# Git 忽略文件
+Thumbs.db
+.DS_Store
+*.swp
+
+composer.lock
+*.log
+/.idea/
+/thinkphp/
