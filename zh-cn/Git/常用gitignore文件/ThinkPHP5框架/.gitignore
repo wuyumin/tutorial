@@ -6,4 +6,5 @@ Thumbs.db
 composer.lock
 *.log
 /.idea/
+/runtime/
 /thinkphp/
