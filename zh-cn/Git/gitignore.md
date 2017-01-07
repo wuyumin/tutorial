@@ -2,6 +2,9 @@
 
 > Git 忽略文件
 
+### 提示
+[windows 系统如何创建以点.开头的文件？](../Windows/startwithdot.md)
+
 ### 说明
 文件 `.gitignore` 的格式规范如下：
 - 所有`空行`或者以 `#` 开头的行都会被 Git 忽略。
