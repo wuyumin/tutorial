@@ -26,7 +26,7 @@
 3. 移动并重命名composer.phar文件到二进制目录  
 `# mv composer.phar /usr/local/bin/composer`  相当于设置Composer环境变量了  
 4. 设置执行权限，一定要有执行权限才行  
-`# chmod 700 /usr/local/bin/composer`  
+`# chmod 755 /usr/local/bin/composer`  
 5. 测试一下  
 `# composer -V`  
 
