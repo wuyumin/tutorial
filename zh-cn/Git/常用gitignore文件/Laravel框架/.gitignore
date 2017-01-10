@@ -1,0 +1,11 @@
+# Git 忽略文件
+Thumbs.db
+.DS_Store
+*.swp
+
+.env
+composer.lock
+*.log
+/.idea/
+/node_modules/
+/vendor/
