@@ -38,6 +38,15 @@
 - `composer create-project`：创建项目。
 - `composer init`：交互方式在当前目录下创建composer.json文件。
 
+## PHP代码使用示例
+```php
+<?php
+require __DIR__ . '/vendor/autoload.php'; // 自动加载文件
+
+// use命名空间
+// php逻辑代码
+```
+
 ## Composer的资源
 - Composer官网(英文) <https://getcomposer.org>
 - PHP安装包列表(英文) <https://packagist.org>
