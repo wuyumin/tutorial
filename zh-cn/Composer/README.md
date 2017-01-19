@@ -31,20 +31,36 @@
 `# composer -V`  
 
 ## Composer的使用
-列举一些常用的。
+列举一些常用的命令行。
+- `composer --help`：composer 帮助信息。
 - `composer self-update`：更新composer版本。(当然，你也可以采取下载composer.phar文件进行覆盖更新)。
 - `composer install`：根据当前目录下的composer.json文件来安装依赖代码库。
-- `composer update`：更新依赖代码库。
+- `composer require`：安装依赖包并写入 composer.json 文件。
+- `composer update`：更新依赖代码包。
 - `composer create-project`：创建项目。
 - `composer init`：交互方式在当前目录下创建composer.json文件。
+- `composer remove`：移除依赖包及其依赖(在依赖没有被其它包使用的情况下)。
 
-## PHP代码使用示例
+## PHP 代码使用示例
+
+> 本例只是测试 composer 的 PHP 代码使用，其实 JSON 操作可直接用`json_encode`函数编码和`json_decode`函数解码。
+
+安装依赖包`composer require gointegro/json:0.9.16`
+
 ```php
 <?php
 require __DIR__ . '/vendor/autoload.php'; // 自动加载文件
 
-// use命名空间
-// php逻辑代码
+use GoIntegro\Json\JsonCoder; // 命名空间
+
+// 逻辑代码
+$json = new JsonCoder();
+$arr = [
+    'name' => '姓名',
+    'sex'  => '男',
+    'age'  => 18
+];
+echo $json->encode($arr);
 ```
 
 ## Composer的资源
