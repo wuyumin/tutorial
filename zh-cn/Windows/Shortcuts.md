@@ -1,0 +1,11 @@
+# windows 系统快捷键
+- Alt + Tab：切换当前程序  Win + Tab：3D切换当前程序
+- Ctrl + Tab：在浏览器上的切换各页面
+- Alt + F4：关闭当前应用程序
+- Win + E：打开资源管理器
+- 当前文件夹下 Shift + 右键：在此处打开命令窗口
+- Win + L：锁屏
+- Ctrl + C：复制
+- Ctrl + X：剪切
+- Ctrl + V：粘贴
+- Ctrl + Z：撤消
