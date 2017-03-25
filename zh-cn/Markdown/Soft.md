@@ -13,7 +13,8 @@
 苹果系统v0.13.2版：[Haroopad-v0.13.2-x64.dmg](https://bitbucket.org/rhiokim/haroopad-download/downloads/Haroopad-v0.13.2-x64.dmg)  
 其它系统或版本请从下载列表里了解。  
 提示：请下载v0.13.2版！不要下载v0.13.1版(此版本微软系统下中文显示有点问题)。  
-也有一些在线markdown编辑器，搜索一下。
+
+### 也有一些在线markdown编辑器，搜索一下。
 
 # 安卓手机软件
 
