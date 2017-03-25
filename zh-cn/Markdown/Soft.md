@@ -1,5 +1,10 @@
 # 电脑软件
 
+### Typora
+* 官网 <https://typora.io>
+* 支持 Windows、Mac 和 Linux 三大平台。
+* 可将 md 格式文件转化成 html、pdf、word(需配合 [Pandoc](https://github.com/jgm/pandoc/releases/latest) 使用) 等格式文件。
+
 ### Haroopad
 电脑 markdown 文件的编辑和预览，还可以将 markdown 文件导出生成 html网页文档 或 pdf文档，帮助菜单有markdown语法帮助等。支持微软、苹果、Linux操作系统。  
 官网 <http://pad.haroopress.com>  
