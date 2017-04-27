@@ -4,3 +4,4 @@
 - Ctrl+d：复制当前行到下一行
 - Ctrl+y：删除当前行
 - Alt+Insert：generater相关代码
+- Alt+Enter：快速修复
