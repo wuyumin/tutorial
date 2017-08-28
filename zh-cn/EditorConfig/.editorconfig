@@ -1,0 +1,23 @@
+# http://EditorConfig.org
+
+# 表明是最顶层的配置文件
+root = true
+
+# 对所有文件生效
+[*]
+# 文件编码
+charset = utf-8
+# 缩进类型
+indent_style = space
+# 缩进数量
+indent_size = 4
+# 换行符格式
+end_of_line = lf
+# 是否删除行尾的空格
+trim_trailing_whitespace = true
+# 是否在文件的最后插入一个空行
+insert_final_newline = true
+
+# 对后缀名为 md 的文件生效
+[*.md]
+trim_trailing_whitespace = false
