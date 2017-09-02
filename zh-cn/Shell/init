@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+# chkconfig: - 85 15
+# author: Yumin Wu
+
+RETVAL=0
+
+start(){
+    echo "启动"
+    RETVAL=$?
+    return ${RETVAL}
+}
+
+stop(){
+    echo "关闭"
+    RETVAL=$?
+    return ${RETVAL}
+}
+
+restart(){
+    stop
+    sleep 1
+    start
+    RETVAL=$?
+    return ${RETVAL}
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        restart
+        ;;
+    status)
+        echo "状态"
+        ;;
+    *)
+        echo $"Usage: $0 {start|stop|restart|status}"
+        RETVAL=1
+        ;;
+esac
+
+exit ${RETVAL}
+
+# 使用方法
+# vi /etc/init.d/xxx
+# 编写脚本
+# chmod +x /etc/init.d/xxx
+# chkconfig xxx on
+# service xxx start|stop|restart...
+# 查看 chkconfig --list
