@@ -30,5 +30,15 @@
 - `Thumbs.db` `/test/do.c` 忽略某个具体文件
 - `!.gitignore` `!/fw/sf/` 避免忽略规则来忽略某个具体文件或某个文件夹
 
+### 技巧
+
+##### Git 根据忽略文件(后加入忽略)来刷新工作目录
+
+后来加入到 .gitignore 中的文件，git 默认还是不理睬它们的，因为 git 有一个缓存的机制。解决方法如下：
+1. 进入工作目录，重置所有缓存(注意后面有个.)  
+	 `git rm -r --cached .`
+2. 还原  
+   `git reset --hard "最新的commit id"`
+
 ### 参考
 - <https://github.com/github/gitignore>
