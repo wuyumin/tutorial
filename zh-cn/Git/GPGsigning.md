@@ -7,6 +7,7 @@ Windows系统注意：
 说明一下：目录的Administrator是本地电脑用户名，使用其他用户名请自行替换。
 GPG软件安装配置文件默认目录 C:\Users\Administrator\AppData\Roaming\gnupg
 Git Bash调用是这个目录 C:\Users\Administrator\.gnupg 需要将钥匙再导入这里才能在Git Bash运行正常
+钥匙导入命令 gpg --import xxx.gpg
 pubring.gpg 公钥库
 secring.gpg 私钥库
 trustdb.gpg 信任库
