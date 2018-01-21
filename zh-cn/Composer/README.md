@@ -40,6 +40,7 @@
 - `composer create-project`：创建项目。
 - `composer init`：交互方式在当前目录下创建composer.json文件。
 - `composer remove`：移除依赖包及其依赖(在依赖没有被其它包使用的情况下)。
+- `composer dump-autoload`：打印自动加载索引。
 
 ## PHP 代码使用示例
 
