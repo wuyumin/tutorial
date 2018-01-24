@@ -5,6 +5,7 @@
 - [Git 使用 GPG 进行签名](GPGsigning.md)
 - [GitHub 上如何参与开源(给开源项目贡献自己的代码)](pullrequest.md)
 - [Git 子模块](gitmodules.md)
+- [修改历史邮箱地址](changingEmail.md)
 - [技巧](Skill.md)
 - Git 官方文档
   * [Git 官方**中文**文档](https://git-scm.com/book/zh/)
