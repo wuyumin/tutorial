@@ -1,4 +1,5 @@
 # Git
+- [Git 配置](gitconfig.md)
 - [Git 属性文件](gitattributes.md)
 - [Git 忽略文件](gitignore.md)
   * [常用 gitignore 文件](./常用gitignore文件)
