@@ -38,7 +38,7 @@ _突出_   __强调__
 
 内联风格(`title`是可选的)
 ```markdown
-[海互网](https://www.089858.com "title")
+[互海网](https://www.089858.com "title")
 ```
 
 引用风格(`title`是可选的)
