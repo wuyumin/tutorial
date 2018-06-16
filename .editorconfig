@@ -16,8 +16,8 @@ end_of_line = lf
 # 是否删除行尾的空格
 trim_trailing_whitespace = true
 # 是否在文件的最后插入一个空行
-insert_final_newline = true
+insert_final_newline = false
 
-# 对后缀名为 md 的文件生效
-[*.md]
+# 对后缀名为 md,markdown 的文件生效
+[*.{md,markdown}]
 trim_trailing_whitespace = false
