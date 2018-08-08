@@ -1,0 +1,10 @@
+# Git 忽略文件
+Thumbs.db
+.DS_Store
+*.swp
+
+/.idea/
+/.vscode/
+# /vendor/
+*.exe
+*.exe~
