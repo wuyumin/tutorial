@@ -6,5 +6,6 @@ Thumbs.db
 /.idea/
 /.vscode/
 # /vendor/
+/go.sum
 *.exe
 *.exe~
