@@ -38,6 +38,12 @@ require (
 ## Git建议
 go.mod文件必须要提交到git仓库，但go.sum文件可以不用提交到git仓库(git忽略文件.gitignore中设置一下)。
 
+## 问题解答
+- 问：启用Go模块以后，使用`go get xxx`时会报错提示"go: cannot find main module; see 'go help modules'"，这个是怎么回事？  
+  
+  答：因为没有找到`go.mod`文件，所以会报错。你只要在项目根目录下生成一个go.mod文件就可以了。
+
+
 ## 参考资料
 - 语义化版本(中文) <https://semver.org/lang/zh-CN/>
 - Go模块官方文档(英文) <https://golang.google.cn/cmd/go/#hdr-Module_maintenance>
