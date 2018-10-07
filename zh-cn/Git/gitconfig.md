@@ -23,3 +23,12 @@
     ;是否启用GPG签署
     ;gpgsign = true
 ```
+
+http 协议换为 git 协议：
+
+```ini
+[url "git://"]
+    insteadOf = http://
+[url "git://"]
+    insteadOf = https://
+```
