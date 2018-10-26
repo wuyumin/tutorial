@@ -8,6 +8,7 @@ Thumbs.db
 /.idea/
 
 # /vendor/
+/debug
 /go.sum
 
 # 这里还得添加Mac、Linux编译后文件
