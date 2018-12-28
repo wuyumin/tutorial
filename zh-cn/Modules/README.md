@@ -57,6 +57,15 @@ replace (
 )
 ```
 
+- 问：第三方库已发布一些版本了，但我还是想用最新某个commit版本？  
+  
+  答：版本写法格式：(已有版本号的高一点版本)-0.(14位时间，时区是零时)-(commit的SHA-1码前12位)
+
+如mytest已发布了最近的v1.3.0，那么可以这么写
+```go
+mytest v1.3.1-0.20181228022629-807368579f89
+```
+
 ## 参考资料
 - 语义化版本(中文) <https://semver.org/lang/zh-CN/>
 - Go模块官方文档(英文) <https://github.com/golang/go/wiki/Modules>
