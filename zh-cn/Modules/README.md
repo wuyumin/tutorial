@@ -67,7 +67,8 @@ go get github.com/gorilla/mux@master    #匹配master分支
 go get github.com/gorilla/mux@v1.6.2    #匹配v1.6.2
 go get github.com/gorilla/mux@c856192   #匹配commit的SHA-1码的版本
 ```
-    针对于开发者的建议：仓库必须是带v前缀的、语义化的版本号来打标签tag，格式如`v1.2.0`
+    针对于开发者的建议：仓库必须是带v前缀的、语义化的版本号来打标签tag，格式如`v1.2.0`  
+    注：有些模块代理还不支持一些指定版本的处理。  
 
 ## 参考资料
 - 语义化版本(中文) <https://semver.org/lang/zh-CN/>
