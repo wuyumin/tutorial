@@ -57,14 +57,17 @@ replace (
 )
 ```
 
-- 问：第三方库已发布一些版本了，但我还是想用最新某个commit版本？  
+- 问：如何获取依赖的特定版本？  
   
-  答：版本写法格式：(已有版本号的高一点版本)-0.(14位时间，时区是零时)-(commit的SHA-1码前12位)
-
-如mytest已发布了最近的v1.3.0，那么可以这么写
-```go
-mytest v1.3.1-0.20181228022629-807368579f89
+  答：go get可以在末尾加@符号，用来指定版本。  
+```bash
+go get github.com/gorilla/mux           #匹配最新的一个tag
+go get github.com/gorilla/mux@latest    #跟上面一样
+go get github.com/gorilla/mux@master    #匹配master分支
+go get github.com/gorilla/mux@v1.6.2    #匹配v1.6.2
+go get github.com/gorilla/mux@c856192   #匹配commit的SHA-1码的版本
 ```
+    针对于开发者的建议：仓库必须是带v前缀的、语义化的版本号来打标签tag，格式如`v1.2.0`
 
 ## 参考资料
 - 语义化版本(中文) <https://semver.org/lang/zh-CN/>
