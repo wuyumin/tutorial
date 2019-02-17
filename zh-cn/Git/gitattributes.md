@@ -9,5 +9,14 @@ tests/ export-ignore
 .travis.yml export-ignore
 ```
 
+### github定义项目语言
+
+参考<https://github.com/github/linguist>
+
+```markdown
+* linguist-language=Go
+# *.css linguist-vendored
+```
+
 ### 参考资料
 - <https://git-scm.com/book/zh/v2/%E8%87%AA%E5%AE%9A%E4%B9%89-Git-Git-%E5%B1%9E%E6%80%A7>
