@@ -85,8 +85,8 @@ go get github.com/gorilla/mux@c856192   #匹配commit的SHA-1码的版本
 
 ## 附
 
-Go语言官方网站(中国) <https://golang.google.cn>
-Go语言官方网站 <https://golang.org>
+- Go语言官方网站(中国) <https://golang.google.cn>
+- Go语言官方网站 <https://golang.org>
 
 ## 欢迎修正
 
