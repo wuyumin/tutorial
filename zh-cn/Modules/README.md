@@ -12,7 +12,6 @@
 <https://goproxy.cn>  
 <https://gocenter.io>  
 (注：Go语言官方已推出官方模块代理 <https://proxy.golang.org> 但目前国内处于被墙状态。)  
-  
 或者使用:  
 <https://github.com/goproxyio/goproxy>  
 <https://github.com/gomods/athens>  
