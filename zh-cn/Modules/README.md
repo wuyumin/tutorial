@@ -3,6 +3,7 @@
 > Go模块是Go语言的依赖包管理工具。
 
 ## Go模块的使用
+
 > 1、Go1.11及以后版本才能使用。  
 2、Go1.11需要设置环境变量 GO111MODULE 为 on（新特性开关，按照Go语言惯例，mod首次在go1.11版本中使用，go1.13及以后版本这个设置可能不会用了）。  
 3、可以设置模块代理：设置环境变量 GOPROXY 的值为代理网址，目前可用的模块公共代理网址有 <https://goproxy.io>、<https://athens.azurefd.net>、<https://goproxy.cn>、<https://gocenter.io> 或者 使用<https://github.com/goproxyio/goproxy>、<https://github.com/gomods/athens>自建模块代理。  
@@ -26,6 +27,7 @@ Go模块版本控制的下载文件及信息会存储到GOPATH的pkg/mod文件�
 使用了Go模块，源码不一定要在GOPATH中进行。  
 
 ## 使用示例
+
 go.mod文件
 ```go
 module github.com/wuyumin/easydoc
@@ -38,9 +40,11 @@ require (
 ```
 
 ## Git建议
+
 go.mod文件必须要提交到git仓库，但go.sum文件可以不用提交到git仓库(git忽略文件.gitignore中设置一下)。
 
 ## 问题解答
+
 - 问：启用Go模块以后，使用`go get xxx`时会报错提示"go: cannot find main module; see 'go help modules'"，这个是怎么回事？  
   
   答：因为没有找到`go.mod`文件，所以会报错。你只要在项目根目录下生成一个go.mod文件就可以了。
@@ -74,11 +78,18 @@ go get github.com/gorilla/mux@c856192   #匹配commit的SHA-1码的版本
   注：有些模块代理还不支持一些指定版本的处理。  
 
 ## 参考资料
+
 - 语义化版本(中文) <https://semver.org/lang/zh-CN/>
 - Go模块官方文档(英文) <https://github.com/golang/go/wiki/Modules>
 - Go模块命令说明(英文) <https://golang.google.cn/cmd/go/#hdr-Module_maintenance>
 
+## 附
+
+Go语言官方网站(中国) <https://golang.google.cn>
+Go语言官方网站 <https://golang.org>
+
 ## 欢迎修正
+
 `此篇文章最新的更改都会在GitHub上进行。`  
 GitHub上的原文链接  
 <https://github.com/wuyumin/tutorial/blob/master/zh-cn/Modules/README.md>  
