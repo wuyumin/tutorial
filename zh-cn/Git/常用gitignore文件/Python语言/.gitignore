@@ -1,0 +1,10 @@
+# Git忽略文件
+
+Thumbs.db
+.DS_Store
+*.swp
+
+/.vscode/
+/.idea/
+
+__pycache__
