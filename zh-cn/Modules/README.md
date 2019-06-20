@@ -53,6 +53,14 @@ go.mod文件必须要提交到git仓库，但go.sum文件可以不用提交到gi
 
 ## 问题解答
 
+- 问：git操作时，我的go.mod文件没有修改，为什么git老是提示是修改状态呢？  
+  
+  答：这个问题一般出现在windows系统上，是换行符导致(类Unix系统一般使用LF换行符，windows系统使用CRLF换行符，而go.mod文件一般是使用LF换行符，windows系统上git默认会将LF换行符转换成CRLF换行符)。  
+  解决方法：在项目根目录下添加或更新`.gitattributes`文件，写入这样语句：  
+```
+go.mod text eol=lf
+```
+
 - 问：启用Go模块以后，使用`go get xxx`时会报错提示"go: cannot find main module; see 'go help modules'"，这个是怎么回事？  
   
   答：因为没有找到`go.mod`文件，所以会报错。你只要在项目根目录下生成一个go.mod文件就可以了。
