@@ -27,6 +27,7 @@ mod是模块英文modules的简写。
 - `go mod tidy`根据go.mod文件来处理依赖关系。
 - `go mod vendor`将依赖包复制到项目下的 vendor 目录。建议一些使用了被墙包的话可以这么处理，方便用户快速使用命令`go build -mod=vendor`编译。
 - `go list -m all`显示依赖关系。`go list -m -json all`显示详细依赖关系。
+- `go list -m -versions <path>`显示包有哪些已发布版本
 - `go mod download <path@version>`下载依赖。参数`<path@version>`是非必写的，path是包的路径，version是包的版本。
 - 其它命令可以通过`go help mod`来查看。
 
