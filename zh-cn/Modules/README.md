@@ -11,6 +11,7 @@
 <https://goproxy.cn>  
 <https://mirrors.aliyun.com/goproxy/>  
 <https://mirrors.cloud.tencent.com/go/>  
+<https://goproxy.baidu.com/>  
 <https://athens.azurefd.net>  
 <https://gocenter.io>  
 (注：Go语言官方已推出官方模块代理 <https://proxy.golang.org> 但目前国内处于被墙状态。)  
