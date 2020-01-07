@@ -22,6 +22,10 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
+# 对Makefile文件生效
+[{Makefile,makefile}]
+indent_style = tab
+
 # 对后缀名为 go 的文件生效
 [*.go]
 indent_style = tab
