@@ -5,3 +5,7 @@
 1. 在项目目录下执行：`git rm -r --cached  .idea/`
 2. 将 .idea/ 添加到 ignore 文件
 3. 其它原理类似
+
+### 空提交
+
+`git commit --allow-empty -m "xxx"`
