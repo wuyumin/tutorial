@@ -11,3 +11,5 @@
 - Git 官方文档
   * [Git 官方**中文**文档](https://git-scm.com/book/zh/)
   * [Git 官方**英文**文档](https://git-scm.com/docs/)（注：英文更新比较及时）
+
+![git操作](git.png)
