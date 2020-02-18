@@ -6,7 +6,9 @@
 
 > 1、Go1.11及以后版本才能使用。  
 2、Go1.11需要设置环境变量 GO111MODULE 为 on（新特性开关，按照Go语言惯例，mod首次在go1.11版本中使用，go1.13及以后版本这个设置可以不用了）。  
-3、可以设置模块代理：设置环境变量 GOPROXY 的值为代理网址，目前可用的模块公共代理网址有:  
+3、可以设置模块代理：设置环境变量 GOPROXY 的值为代理网址。
+目前可用的模块公共代理网址有:  
+(注：Go语言官方已推出官方模块代理 <https://proxy.golang.org> 但目前国内处于被墙状态。)  
 <https://goproxy.io>  
 <https://goproxy.cn>  
 <https://mirrors.aliyun.com/goproxy/>  
@@ -14,11 +16,12 @@
 <https://goproxy.baidu.com/>  
 <https://athens.azurefd.net>  
 <https://gocenter.io>  
-(注：Go语言官方已推出官方模块代理 <https://proxy.golang.org> 但目前国内处于被墙状态。)  
 或者自建模块代理工具:  
 <https://github.com/goproxyio/goproxy>  
 <https://github.com/goproxy/goproxy>  
 <https://github.com/gomods/athens>  
+  
+注：校验数据库GOSUMDB可用Go语言官方运营的中国站点`sum.golang.google.cn`  
 
 mod是模块英文modules的简写。
 
