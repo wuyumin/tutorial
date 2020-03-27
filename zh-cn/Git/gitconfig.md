@@ -5,6 +5,10 @@
 `.gitconfig`配置文件例子：
 
 ```ini
+[http]
+    ;proxy = http://127.0.0.1:1080
+[https]
+    ;proxy = http://127.0.0.1:1080
 [gui]
     ;GUI图形化工具编码
     encoding = utf-8
