@@ -36,3 +36,19 @@ http 协议换为 git 协议：
 [url "git://"]
     insteadOf = https://
 ```
+
+SSH形式使用代理需要`vi ~/.ssh/config`  
+windows系统
+```
+Host github.com
+    #http代理(需要connect: git安装后一般是D:\Program Files\Git\mingw64\bin\connect.exe)
+    #ProxyCommand connect -H 127.0.0.1:1080 %h %p
+```
+mac系统
+```
+Host github.com
+    #http代理(需要socat)
+    #ProxyCommand socat - PROXY:127.0.0.1:%h:%p,proxyport=1087
+    #socks5代理(需要nc)
+    #ProxyCommand nc -X 5 -x 127.0.0.1:1086 %h %p
+```
