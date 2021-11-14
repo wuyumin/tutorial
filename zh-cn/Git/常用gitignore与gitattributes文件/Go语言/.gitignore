@@ -10,6 +10,7 @@ Thumbs.db
 # /vendor/
 /debug
 go.sum
+go.work
 
 # 这里还得添加Mac、Linux编译后文件
 *.exe
