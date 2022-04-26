@@ -5,3 +5,9 @@ Thumbs.db
 
 /.vscode/
 /.idea/
+
+# 这里还得添加Mac、Linux编译后文件
+*.out
+*.exe
+*.exe~
+/build/
