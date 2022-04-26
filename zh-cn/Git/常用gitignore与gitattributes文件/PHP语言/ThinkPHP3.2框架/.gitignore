@@ -3,9 +3,8 @@ Thumbs.db
 .DS_Store
 *.swp
 
-.env
-composer.lock
-*.log
+/.vscode/
 /.idea/
-/node_modules/
-/vendor/
+
+/Runtime/
+/Uploads/

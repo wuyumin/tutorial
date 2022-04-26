@@ -3,9 +3,11 @@ Thumbs.db
 .DS_Store
 *.swp
 
+/.vscode/
+/.idea/
+
 composer.lock
 *.log
-/.idea/
 /runtime/
 /thinkphp/
 /vendor/
