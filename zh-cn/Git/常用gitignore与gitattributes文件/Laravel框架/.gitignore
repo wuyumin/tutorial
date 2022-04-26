@@ -1,4 +1,4 @@
-# Git 忽略文件
+# git忽略文件
 Thumbs.db
 .DS_Store
 *.swp
