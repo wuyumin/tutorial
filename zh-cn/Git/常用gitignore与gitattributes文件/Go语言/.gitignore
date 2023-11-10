@@ -7,11 +7,13 @@ Thumbs.db
 /.idea/
 
 # /vendor/
+/dist/
 /debug
 go.sum
 go.work
 go.work.sum
 
 # 这里还得添加Mac、Linux编译后文件
+main
 *.exe
 *.exe~
